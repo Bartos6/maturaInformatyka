@@ -57,7 +57,7 @@ int main()
 		}
 	}
 
-	while (!stos.empty()) {
+	while (stos.top() != '#') {
 		cout << stos.top();
 		stos.pop();
 	}
