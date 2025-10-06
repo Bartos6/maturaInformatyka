@@ -6,14 +6,17 @@ int fibo(int n){
     if (n == 0) return 0;
     if (n == 1) return 1;
 
-    return fibo(n - 1) + fibo(n - 2);
+    return fibo(n - 1) + fibo(n - 2); //moze byc jako else, ale nie musi
 }
 
 int silnia(int n) {
-
     if (n == 1) return 1;  
+    else return silnia(n - 1) * n;
+}
 
-    return silnia(n - 1) * n;
+int ciag(int n) {
+	if (n == 1) return 2;
+	else return 2 - ciag(n - 1) * 5;	
 }
 
 int main()
