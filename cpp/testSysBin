@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+
+int zmianaBinNaDzies(int l) {
+
+	int x, suma = 0, pot2 = 1;
+
+	while (l > 0) {
+		x = l % 10;
+		suma += x * pot2;
+		l = l / 10;
+	}
+	return suma;
+	
+}
+int main() {
+	int l;
+	cin >> l;
+	cout<<zmianaBinNaDzies(l);
+}
