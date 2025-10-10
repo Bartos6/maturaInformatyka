@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int r, a, b, n, w = 0, i = 1;
+    n = 316498;
+    
+    while (n>0){
+        r = n%100;
+        a = r/10;
+        b = r%10;
+        n /= 100; //n = n / 100
+        
+        w = i * (a + 10 * b) + w;
+        i *= 100;
+    }
+    
+    cout<<w;
+    
+    
+    
+    
+    
+    return 0;
+}
