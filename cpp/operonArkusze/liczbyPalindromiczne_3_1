@@ -1,0 +1,80 @@
+#include <iostream>
+using namespace std;
+
+//Arkusz1 3.2
+bool czyPalindrom(int n) {
+    
+    int dzies = n, bin = 0, pot_dzies = 1, odwrotna_bin = 0, x;
+
+    while (dzies > 0) {
+        bin += pot_dzies * (dzies % 2);
+        dzies = dzies / 2;
+
+        pot_dzies *= 10;
+
+    }
+    x = bin;
+    //odwrocic zmienna bin i przypisac do odwrotna_bin
+    //sprawdzic czy bin i odwrotna_bin to to samo 
+    //jeśli tak to palindormiczna
+
+
+}
+
+
+
+int main()
+{
+
+   czyPalindrom(8);
+
+    int suma = 0, x;
+
+    //cyfry
+    for (int i = 0; i < 10; i++) {
+        if (czyPalindrom(i)) suma += i;
+    }
+    //2
+    for (int i = 11; i < 100; i += 11) {
+        if (czyPalindrom(i)) suma += i;
+
+    }
+    //3cyfr
+
+    for (int i = 1; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            x = 100 * i + 10 * j + 1 * i;
+            if (czyPalindrom(x)) suma += x;
+        }
+    }
+
+    //4cyfr
+    for (int i = 1; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            x = 1000 * i + 100 * j + 10 * j + 1 * i;
+            if (czyPalindrom(x)) suma += x;
+        }
+    }
+
+    //5cyfr
+    for (int i = 1; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            for (int k = 0; k < 10; k++) {
+                x = 10000 * i + 1000 * j + 100 * k + 10 * j + 1 * i;
+                if (czyPalindrom(x)) suma += x;
+            }
+        }
+    }
+    //6cyfr
+    for (int i = 1; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            for (int k = 0; k < 10; k++) {
+                x = 100000 * i + 10000 * j + 1000 * k + 100 * k + 10 * j + 1 * i;
+                if (czyPalindrom(x)) suma += x;
+            }
+        }
+    }
+
+
+
+}  
