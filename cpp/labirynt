@@ -7,40 +7,30 @@ int jeden = 1;
 void wypelnijLabirynt(int tab[n][n]);
 void wypiszLabirynt(int tab[n][n]);
 
-void droga(int tab[n][n], int w, int k) {
+bool droga(int tab[n][n], int w, int k) {
 
-	tab[w][k] = 2;
+	tab[w][k]=2;
 
+	if(w == 0 || w == n - 1 || k == 0 || k == n - 1) return true;
 	//lewo
-	if (tab[w][k - 1] == 0) {
-		droga(tab, w, k - 1);
-	}
+	if (tab[w][k - 1] == 0  && droga(tab, w, k - 1)) return true;
 	//gora
-	if (tab[w - 1][k] == 0) {
-		droga(tab, w - 1, k);
-
-	}
+	if (tab[w - 1][k] == 0 && droga(tab, w - 1, k)) return true;
 	//prawo
-	if (tab[w][k+1] == 0) {
-
-	}
+	if (tab[w][k + 1] == 0 && droga(tab, w, k + 1))	return true;
 	//dol
-	if (tab[w + 1][k] == 0) {
-
-	}
-
-
+	if (tab[w + 1][k] == 0 && droga(tab, w + 1, k)) return true;
+	
+	return false;
 
 
 }
 
 
-
 int main() {
 	int tab[n][n];
 	wypelnijLabirynt(tab);
-	droga(tab, n - 2, 1);
-
+	cout << endl << endl << "Czy droga: " << droga(tab, n - 2, 1) << endl;
 	wypiszLabirynt(tab);
 
 
@@ -72,11 +62,15 @@ void wypelnijLabirynt(int tab[n][n]) {
 	tab[4][3] = jeden;
 	tab[5][1] = jeden;
 	tab[5][7] = jeden;
+	tab[9][1] = jeden;
 }
 
 void wypiszLabirynt(int tab[n][n]) {
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
+			if (tab[i][j] == 0) {
+				cout << "  ";
+			}else
 			cout << tab[i][j] << " ";
 		}
 		cout << endl;
