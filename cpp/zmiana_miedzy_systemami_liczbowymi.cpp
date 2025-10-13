@@ -2,7 +2,16 @@
 #include <fstream>
 using namespace std;
 
-
+int zmianaBinNaDzies(int l) {
+	int x, suma = 0, pot2 = 1;
+	while (l > 0) {
+		x = l % 10;
+		suma += x * pot2;
+		l = l / 10;
+		pot2 *= 2;
+	}
+	return suma;	
+}
 
 
 void zmianaSystemu(int liczba, int ps) {
