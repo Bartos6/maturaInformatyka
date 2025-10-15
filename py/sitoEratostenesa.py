@@ -12,7 +12,7 @@ while i <= n:
     if tab[i] == 0:
         i += 1
         continue
-    x = i * 2
+    x = i * i    # wielokrotności zaczynając od potęgi. dla 3 nie musimy sprawdzać 3*2 poniewaz jest to wielokrotność 2
     while x <= n:
         tab[x] = 0
         x += i
