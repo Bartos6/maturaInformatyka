@@ -1,0 +1,38 @@
+void wypelnijLabirynt(int tab[n][n]) {
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			if (i == 0 || i == n - 1) {
+				if (j == 1) tab[i][j] = 0;
+				else tab[i][j] = jeden;
+			}
+			else if (j == 0 || j == n - 1) {
+				tab[i][j] = jeden;
+			}
+			else if (i % 3 != 0) {
+				if (j % 2 == 0) tab[i][j] = jeden;
+				else tab[i][j] = 0;
+			}
+			else {
+
+				tab[i][j] = 0;
+			}
+		}
+	}
+	tab[4][1] = jeden;
+	tab[4][3] = jeden;
+	tab[5][1] = jeden;
+	tab[5][7] = jeden;
+	tab[9][1] = jeden;
+}
+
+void wypiszLabirynt(int tab[n][n]) {
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			if (tab[i][j] == 0) {
+				cout << "  ";
+			}else
+			cout << tab[i][j] << " ";
+		}
+		cout << endl;
+	}
+}
