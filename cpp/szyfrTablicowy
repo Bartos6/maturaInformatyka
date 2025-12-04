@@ -1,0 +1,34 @@
+//wersja nie pelna
+
+#include <iostream>
+#include <vector>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+     
+    vector <vector <char>> tab;  // char tab[3][3];
+    int N = 3, x = 0, ileTab;
+    string napis = "Ala ma kota";
+
+    tab.resize(N);
+
+    ileTab = napis.size() / (N * N);
+    if (napis.size() % (N * N) != 0) ileTab++;
+
+    for (int licz = 0; licz < ileTab; licz++) {
+        for (int i = 0; i < N; i++) {
+            tab[i].resize(N);
+            for (int j = 0; j < N; j++) {
+                if (x == napis.size()) tab[i][j] = 'X';
+                else tab[i][j] = napis[x];
+            }
+        }
+
+        //petle wypisujaca szyfr
+    }
+    
+
+}
