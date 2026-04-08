@@ -1,0 +1,21 @@
+1;Incepcja;Christopher Nolan;148;2010-07-16;13+;Sci-Fi
+2;Titanic;James Cameron;195;1997-12-19;12+;Dramat
+3;Avengers: Endgame;Anthony Russo;181;2019-04-26;13+;Akcja
+4;Król Lew;Roger Allers;88;1994-06-15;7+;Animacja
+5;Interstellar;Christopher Nolan;169;2014-11-07;13+;Sci-Fi
+6;Gladiator;Ridley Scott;155;2000-05-05;16+;Historyczny
+7;Matrix;Lana Wachowski;136;1999-03-31;16+;Sci-Fi
+8;Forrest Gump;Robert Zemeckis;142;1994-07-06;12+;Dramat
+9;The Dark Knight;Christopher Nolan;152;2008-07-18;13+;Akcja
+10;Pulp Fiction;Quentin Tarantino;154;1994-10-14;18+;Kryminalny
+11;The Shawshank Redemption;Frank Darabont;142;1994-09-23;16+;Dramat
+12;Fight Club;David Fincher;139;1999-10-15;18+;Dramat
+13;The Godfather;Francis Ford Coppola;175;1972-03-24;16+;Kryminalny
+14;The Lord of the Rings: The Fellowship of the Ring;Peter Jackson;178;2001-12-19;12+;Fantasy
+15;The Lord of the Rings: The Two Towers;Peter Jackson;179;2002-12-18;12+;Fantasy
+16;The Lord of the Rings: The Return of the King;Peter Jackson;201;2003-12-17;12+;Fantasy
+17;Avatar;James Cameron;162;2009-12-18;13+;Sci-Fi
+18;Joker;Todd Phillips;122;2019-10-04;16+;Dramat
+19;Parasite;Bong Joon-ho;132;2019-05-30;16+;Thriller
+20;Whiplash;Damien Chazelle;106;2014-10-10;16+;Dramat
+21;The Social Network;David Fincher;120;2010-10-01;13+;Dramat

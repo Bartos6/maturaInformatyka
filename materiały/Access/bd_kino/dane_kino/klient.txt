@@ -1,0 +1,10 @@
+1;Jan;Kowalski;jan.kowalski@example.com;1990-05-12
+2;Anna;Nowak;anna.nowak@example.com;1985-08-23
+3;Piotr;Zieliński;piotr.zielinski@example.com;2000-01-30
+4;Katarzyna;Wiśniewska;k.wisniewska@example.com;1992-03-14
+5;Tomasz;Wójcik;t.wojcik@example.com;1988-11-02
+6;Agnieszka;Kaczmarek;a.kaczmarek@example.com;1995-07-21
+7;Paweł;Mazur;p.mazur@example.com;1991-09-10
+8;Magdalena;Krawczyk;m.krawczyk@example.com;1987-12-05
+9;Michał;Piotrowski;m.piotrowski@example.com;1999-04-18
+10;Ewa;Grabowska;e.grabowska@example.com;1993-06-30

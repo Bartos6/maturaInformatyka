@@ -1,0 +1,5 @@
+1;1A;5;Anna Kowalska
+2;1B;5;Jan Nowak
+3;2A;5;Ewa Wisniewska
+4;2B;5;Marek Wojcik
+5;3A;5;Katarzyna Zielinska

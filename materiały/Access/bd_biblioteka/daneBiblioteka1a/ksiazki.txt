@@ -1,0 +1,15 @@
+1;Harry Potter i Kamien Filozoficzny;J K Rowling;Tak
+2;Hobbit;J R R Tolkien;Tak
+3;Wladca Pierscieni;J R R Tolkien;Nie
+4;Lalka;Boleslaw Prus;Tak
+5;Pan Tadeusz;Adam Mickiewicz;Nie
+6;Zemsta;Aleksander Fredro;Tak
+7;Krzyzacy;Henryk Sienkiewicz;Tak
+8;Quo Vadis;Henryk Sienkiewicz;Nie
+9;Dziady;Adam Mickiewicz;Tak
+10;Maly Ksiaze;Antoine de Saint Exupery;Tak
+11;Opowiesc Wigilijna;Charles Dickens;Tak
+12;Ania z Zielonego Wzgorza;Lucy Maud Montgomery;Tak
+13;Chlopcy z Placu Broni;Ferenc Molnar;Tak
+14;W pustyni i w puszczy;Henryk Sienkiewicz;Tak
+15;Akademia Pana Kleksa;Jan Brzechwa;Tak
