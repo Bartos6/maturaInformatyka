@@ -1,0 +1,16 @@
+#zmiana liczby z podanego systemu liczbowego na 10
+
+def naDzies(liczba, podst_sys):
+    dzies = 0
+    pot = 1
+    for i in range(len(liczba)-1,-1,-1):
+        if ord(liczba[i]) <= ord('9'):
+            x = ord(liczba[i]) - ord('0')
+        else:
+            x = ord(liczba[i]) - ord('A') + 10
+        dzies += pot*x
+        pot *= podst_sys
+
+    return dzies
+
+print(naDzies("110",2))
