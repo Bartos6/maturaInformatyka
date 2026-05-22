@@ -9,7 +9,7 @@ double f(double x){
 
 int main()
 {
-    float eps = 0.00000001, L = -10, P = 10, S, wartBez;
+    double eps = 0.00000001, L = -10, P = 10, S, wartBez;
 
     wartBez = L - P;
     if (wartBez < 0) wartBez*= -1;
